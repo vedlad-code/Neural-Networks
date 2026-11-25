@@ -1,6 +1,6 @@
 #training data
 inputs = [1,2,3,4,5]
-outputs = [10,20,30,40,50]
+outputs = [2,4,6,8,10]
 
 #initial parameter
 weights = 0.5
@@ -29,7 +29,7 @@ def calculate_loss():
 # print(calculate_loss()) 
 
 #training
-for epoch in range(1000):
+for epoch in range(2000):
     weight_gradient = 0
     bias_gradient = 0
 
